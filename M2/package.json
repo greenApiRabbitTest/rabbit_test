@@ -1,0 +1,17 @@
+{
+  "name": "m2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node consumer.js",
+    "start:dev": "nodemon consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "winston": "^3.10.0"
+  }
+}
